@@ -43,3 +43,17 @@ footer {
 .colored-text {
     background-color: var(--marian-blue);
 }
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+}
+
+.footerMain {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.social {
+    grid-area: 1 / 3 / 2 / 4;
+}
